@@ -20,8 +20,15 @@ echo "Installing jenkins"
 sudo apt-get -y install jenkins > /dev/null 2>&1
 sudo service jenkins start
 
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+
 echo "Installing Node js"
-sudo apt-get install nodejs > /dev/null 2>&1
+sudo apt-get -y install nodejs
+
+
+
+echo "Installing npm"
+sudo apt-get -y install npm
 
 echo "Installing typescript"
 npm i -g typescript
