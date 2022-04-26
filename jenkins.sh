@@ -20,6 +20,15 @@ echo "Installing jenkins"
 sudo apt-get -y install jenkins > /dev/null 2>&1
 sudo service jenkins start
 
+echo "Installing Node js"
+sudo apt-get install nodejs > /dev/null 2>&1
+
+echo "Installing typescript"
+npm i -g typescript
+
+echo "Installing nestjs"
+npm i -g @nestjs/cli
+
 sleep 1m
 
 echo "Installing Jenkins Plugins"
