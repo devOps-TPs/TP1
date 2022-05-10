@@ -26,7 +26,6 @@ echo "Installing Node js"
 sudo apt-get -y install nodejs
 
 
-
 echo "Installing npm"
 sudo apt-get -y install npm
 
@@ -35,6 +34,9 @@ npm i -g typescript
 
 echo "Installing nestjs"
 npm i -g @nestjs/cli
+
+nodejs --version
+typescript
 
 sleep 1m
 
