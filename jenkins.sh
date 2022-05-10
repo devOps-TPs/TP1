@@ -35,8 +35,8 @@ npm i -g typescript
 echo "Installing nestjs"
 npm i -g @nestjs/cli
 
-nodejs --version
-typescript
+echo "Cloning project"
+git clone https://github.com/devOps-TPs/TP1-app.git
 
 sleep 1m
 
